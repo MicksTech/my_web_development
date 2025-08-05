@@ -10,10 +10,11 @@
     border: 1px solid #808080;
     width: 500px;
     height: 100%;
+    border-spacing: 10px;
 }
 
 .container table td{
-    border: 1px solid #808080;
+    border: 1px solid #000;
     width: 500px;
     height: 100%;
     border-collapse: collapse;
