@@ -1,0 +1,13 @@
+.graph{
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    background: #666;
+}
+
+#canvas{
+    width: 300px;
+    height: 300px;
+    background: #808080;
+    border: 1px solid #808080;
+}
