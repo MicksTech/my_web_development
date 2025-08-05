@@ -6,9 +6,16 @@
     min-height: 100vh;
 }
 
-.container table, th, td{
+.container table, th{
+    border: 1px solid #808080;
+    width: 500px;
+    height: 100%;
+}
+
+.container table td{
     border: 1px solid #808080;
     width: 500px;
     height: 100%;
     border-collapse: collapse;
+    background: #808080;
 }
