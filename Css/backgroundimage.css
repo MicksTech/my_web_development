@@ -1,0 +1,11 @@
+.container {
+    background-image: url(/Asset/HD-wallpaper-abstract-background-colorful.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
