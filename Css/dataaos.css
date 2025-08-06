@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dataaos-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+    gap: 20px;
+    background: linear-gradient(80deg, #888, #222);
+}
+
+#ani1{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani2{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani3{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani4{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani5{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani6{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani7{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani8{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani9{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani10{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani11{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani12{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani13{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani14{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani15{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani16{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani17{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani18{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani19{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani20{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani21{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani22{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani23{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani24{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani25{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani26{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani27{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani28{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani29{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani30{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani31{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani32{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani33{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
+#ani34{background: #111;width: 250px;height: 100px;color: #fff;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 1rem; margin: 30px 40px}
