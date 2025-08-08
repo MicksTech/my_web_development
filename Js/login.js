@@ -4,7 +4,7 @@ function login() {
     var pass = document.getElementById("pass").value;
 
     if (user === '' || pass === '') {
-        alert('Please fill ot this fields');
+        alert('Please fill out this fields');
         return;
     } 
     if (user === 'Admin' && pass === '12345') {
