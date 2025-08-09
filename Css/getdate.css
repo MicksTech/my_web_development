@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    gap: 20px;
+    background: linear-gradient(to right, #ff0000, #fff000);
+}
+
+button{
+    width: 210px;
+    height: 50px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    background: #ffff;
+}
+
+#close{
+    font: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
