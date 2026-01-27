@@ -1,5 +1,5 @@
 let FullName = "John Michael Doe";
-let Age = 30
+let Age = 30;
 let isStudent = false;
 
 document.getElementById('p1').textContent = `Your Full name is ${FullName}`;
