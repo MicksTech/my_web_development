@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.slider {
+    position: relative;
+    width: 800px;
+    background: #ffc0cb;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.8s ease-in-out;
+}
+
+.slides img {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    margin: 15px 20px;
+}
+
