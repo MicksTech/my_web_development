@@ -59,6 +59,10 @@
     transform: scale(1.1);
 }
 
+.Addnote {
+    display: none;
+}
+
 .formAdd {
     display: flex;
     flex-direction: column;
@@ -75,9 +79,9 @@
     gap: 10px;
 }
 
-.inputtitle label {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.5rem;
+.inputtitle ::placeholder {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
     text-transform: capitalize;
 }
 
@@ -99,9 +103,9 @@
     gap: 10px;
 }
 
-.inputnote label {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.5rem;
+.inputnote ::placeholder {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
     text-transform: capitalize;
 }
 
@@ -114,4 +118,27 @@
 .inputnote textarea:focus {
     outline: none;
     border-bottom: 2px solid var(--primary-color);
+}
+
+.BtnAdd {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 10px;
+}
+
+.BtnAdd button {
+    background: var(--primary-color);
+    width: 100%;
+    max-width: 110px;
+    border: none;
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.BtnAdd button:hover {
+    background: var(rgb(255, 153, 0));
 }

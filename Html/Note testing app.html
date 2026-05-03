@@ -5,55 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Note | Testing | App</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="/Css/Note testing app.css">
-    <link rel="stylesheet" href="/model/Icon/node_modules/@fortawesome/fontawesome-free/css/all.css">
+
+    <!-- Font Awesome CDN (FIXED) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- SweetAlert2 CDN (RECOMMENDED) -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
+
     <header class="container-header">
-        <a href="">Note</a>
+        <a href="#">Note</a>
 
         <div class="container-button">
-            <Button>
-                <i class="fa-solid fa-edit"></i>
-            </Button>
-            <Button id="Openform">
-                <i class="fa-solid fa-add"></i>
-            </Button>
-            <Button>
+            <button>
+                <i class="fa-solid fa-pen"></i>
+            </button>
+
+            <button id="Openform" onclick="OpenForm()">
+                <i class="fa-solid fa-plus"></i> <!-- FIXED ICON -->
+            </button>
+
+            <button>
                 <i class="fa-solid fa-ellipsis"></i>
-            </Button>
+            </button>
         </div>
     </header>
 
     <main>
         <section class="Addnote">
-            <header class="container-header">
-                <a href="">Note</a>
-            
-                <div class="container-button">
-                    <Button>
-                        <i class="fa-solid fa-check"></i>
-                    </Button>
-                    <Button id="Openform">
-                        <i class="fa-solid fa-close"></i>
-                    </Button>
-                </div>
-            </header>
-            <form class="formAdd">
+
+            <!-- FORM FIXED -->
+            <form class="formAdd" onsubmit="event.preventDefault(); AddNote();">
+
                 <div class="inputtitle">
-                    <label for="inputtitle">Input title</label>
-                    <input type="text" id="inputtitle" name="inputtitle">
+                    <input type="text" id="inputtitle" placeholder="Input title" required>
                 </div>
+
                 <div class="inputnote">
-                    <label for="inputnote">Input note</label>
-                    <textarea name="inputnote" id="inputnote"></textarea>
+                    <textarea id="inputnote" placeholder="Input note" required></textarea>
                 </div>
+
+                <!-- BUTTON INSIDE FORM -->
+                <div class="BtnAdd">
+                    <button type="submit">Add</button>
+                </div>
+
             </form>
         </section>
+
+        <!-- NOTES OUTPUT -->
+        <section class="Notes"></section>
     </main>
 
+    <!-- JS -->
     <script src="/Js/Note testing app.js"></script>
+
 </body>
 
 </html>
