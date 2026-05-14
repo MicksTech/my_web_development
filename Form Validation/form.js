@@ -12,8 +12,12 @@ if (pattern.test(email)) {
 function togglePassword() {
     const x = document.getElementById("password");
     if (x.type === "password") {
+
+        // Change the input type to text to show the password
         x.type = "text";
     } else {
+        
+        // Change the input type back to password to hide the password
         x.type = "password";
     }
 }
